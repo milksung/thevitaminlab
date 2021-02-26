@@ -48,7 +48,7 @@ export default {
   },
   head() {
     return {
-      title: "Codesk | Home 3",
+      title: "THE VITAMINLAB",
     };
   },
 };
