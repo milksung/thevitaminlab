@@ -1,58 +1,55 @@
 <template>
   <div>
-    <Nav />
-    <Slider />
-    <BestCreative />
-    <SpaceToMake />
-    <Trusted />
-    <Services />
-    <Gallery />
-    <Funfacts />
-    <WeKnows />
-    <ChangingArea />
+    <NavThree />
+    <SliderThree />
+    <ServicesBox />
+    <WhyCodesk />
+    <ExploreCodesk />
+    <CallToActionTwo />
+    <Team />
+    <Brands />
     <Testimonial />
-    <CallToAction />
+    <WriteMessage />
     <Blog />
-    <CompanyLogo />
+    <GMap />
     <Footer />
   </div>
 </template>
 
 <script>
-  import Nav from "../components/Nav";
-  import Slider from "../components/Slider";
-  import BestCreative from "../components/BestCreative";
-  import SpaceToMake from "../components/SpaceToMake";
-  import Trusted from "../components/Trusted";
-  import Services from "../components/Services";
-  import Gallery from "../components/Gallery";
-  import Funfacts from "../components/Funfacts";
-  import WeKnows from "../components/WeKnows";
-  import ChangingArea from "../components/ChangingArea";
-  import Testimonial from "../components/Testimonial";
-  import CallToAction from "../components/CallToAction";
-  import Blog from "../components/Blog";
-  import CompanyLogo from "../components/CompanyLogo";
-  import Footer from "../components/Footer";
-
-  export default {
-    components: {
-      Footer,
-      CompanyLogo,
-      Blog,
-      CallToAction,
-      Testimonial,
-      ChangingArea,
-      WeKnows,
-      Funfacts,
-      Gallery,
-      Services,
-      Trusted,
-      SpaceToMake,
-      BestCreative,
-      Slider,
-      Nav
-
-    }
-  }
+import Footer from "../components/Footer";
+import NavThree from "../components/NavThree";
+import SliderThree from "../components/SliderThree";
+import ServicesBox from "../components/ServicesBox";
+import WhyCodesk from "../components/WhyCodesk";
+import ExploreCodesk from "../components/ExploreCodesk";
+import CallToActionTwo from "../components/CallToActionTwo";
+import Team from "../components/Team";
+import Brands from "../components/Brands";
+import Testimonial from "../components/Testimonial";
+import WriteMessage from "../components/WriteMessage";
+import Blog from "../components/Blog";
+import GMap from "../components/GMap";
+export default {
+  components: {
+    GMap,
+    Blog,
+    WriteMessage,
+    Testimonial,
+    Brands,
+    Team,
+    CallToActionTwo,
+    ExploreCodesk,
+    WhyCodesk,
+    ServicesBox,
+    SliderThree,
+    NavThree,
+    Footer,
+  },
+  head() {
+    return {
+      title: "Codesk | Home 3",
+    };
+  },
+};
 </script>
