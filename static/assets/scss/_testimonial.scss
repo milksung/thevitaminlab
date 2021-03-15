@@ -1,114 +1,173 @@
-
-
-
 /*===========================
-    12.TESTIMONIAL css 
+    4.BEST CREATIVE css 
 ===========================*/
 
-
-
-
-.testimonial-title-area{
-	background: $theme-color;
-	position: relative;
-	z-index: 11;
-	&::before{
-	position: absolute;
-	content: '';
-	left: 50%;
-	bottom: -11px;
-	transform: translateX(-50%);
-	width: 0;
-	height: 0;
-	border-left: 15px solid transparent;
-	border-right: 15px solid transparent;
-	border-top: 11px solid $theme-color;
-	}
-	& .testimonial-title{
-		& .title{
-			line-height: 160px;
-			font-size: 44px;
-			color: $white;
-			@media #{$xs} {
-				font-size: 26px;
-			}
-			@media #{$sm} {
-				font-size: 44px;
-			}
-		}
-	}
+.best-creative-area {
+    & .best-creative-bg {
+        background: #ffffff;
+        padding-bottom: 20px;
+        position: relative;
+        &::before {
+            position: absolute;
+            content: '';
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background-image: url(../images/line.png);
+        }
+        & .best-creative-content {
+            padding-left: 80px;
+            padding-top: 68px;
+            padding-bottom: 80px;
+            @media #{$lg} {
+                padding-left: 60px;
+            }
+            @media #{$md} {
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+            @media #{$xs} {
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+            & .title {
+                font-size: 44px;
+                color: $heading-color;
+                letter-spacing: -1.5px;
+                @media #{$lg} {
+                    font-size: 36px;
+                }
+                @media #{$xs} {
+                    font-size: 26px;
+                }
+                @media #{$sm} {
+                    font-size: 38px;
+                }
+            }
+            & p {
+                letter-spacing: -.7px;
+                padding-top: 30px;
+                padding-right: 35px;
+                @media #{$lg} {
+                    padding-right: 0;
+                }
+                @media #{$md} {
+                    padding-right: 0;
+                }
+                @media #{$xs} {
+                    font-size: 15px;
+                    padding-right: 0;
+                }
+            }
+        }
+        & .best-creative-list {
+            & .best-creative-seats {
+                background: #f51b1c;
+                margin-left: 50px;
+                padding-left: 155px;
+                padding-top: 44px;
+                padding-bottom: 34px;
+                position: relative;
+                @media #{$lg} {
+                    margin-left: 0;
+                }
+                @media #{$md} {
+                    margin-right: 50px;
+                }
+                @media #{$xs} {
+                    margin-right: 30px;
+                    margin-left: 30px;
+                    padding-left: 30px;
+                }
+                @media #{$sm} {
+                    margin-right: 30px;
+                    margin-left: 30px;
+                    padding-left: 155px;
+                }
+                & i {
+                    position: absolute;
+                    content: '';
+                    left: 60px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    font-size: 60px;
+                    color: $white;
+                    @media #{$xs} {
+                        position: static;
+                        transform: translateY(0);
+                    }
+                    @media #{$sm} {
+                        position: absolute;
+                        transform: translateY(-50%);
+                    }
+                }
+                & .title {
+                    color: $white;
+                    font-size: 44px;
+                    font-weight: 600;
+                    line-height: 36px;
+                }
+                & p {
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: #ffe2df;
+                }
+                &>span {
+                    position: absolute;
+                    top: -56px;
+                    left: 0;
+                    background: $white;
+                    line-height: 56px;
+                    padding: 0 60px;
+                    font-size: 14px;
+                    font-weight: 700;
+                    font-style: italic;
+                    color: $heading-color;
+                    @media #{$xs} {
+                        padding: 0 10px;
+                    }
+                    @media #{$sm} {
+                        padding: 0 30px;
+                    }
+                }
+            }
+            & .best-creative-list-item {
+                margin-left: 105px;
+                padding-top: 47px;
+                @media #{$lg} {
+                    margin-left: 60px;
+                }
+                @media #{$md} {
+                    margin-left: 50px;
+                }
+                @media #{$xs} {
+                    margin-left: 30px;
+                }
+                & ul {
+                    & li {
+                        font-size: 18px;
+                        font-weight: 600;
+                        color: $heading-color;
+                        line-height: 40px;
+                        letter-spacing: -.8px;
+                        @media #{$xs} {
+                            font-size: 16px;
+                        }
+                        & i {
+                            color: $theme-color;
+                            padding-right: 28px;
+                            @media #{$xs} {
+                                padding-right: 7px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
-
-
-
-.testimonial-area{
-	background: #fbf0ee;
-	padding-top: 120px;
-	padding-bottom: 117px;
-	position: relative;
-	z-index: 10;
-	& .testimonial-pattern{
-		position: absolute;
-		top: 0;
-		left: 0;
-		z-index: -1;
-	}
-	 & .testimonial-item{
-		background: $white;
-		border: 1px solid #f7eae8;
-		margin-bottom: 40px;
-		position: relative;
-		@include transition(0.3s);
-		& .icon{
-			position: absolute;
-			top: 0;
-			left: 20px;
-		}
-		& p{
-			line-height: 30px;
-			color: #817a78;
-			font-weight: 500;
-			padding: 51px 60px 25px; 
-			@media #{$md} {
-				padding: 51px 40px 25px;
-			}
-			@media #{$xs} {
-				padding: 51px 20px 25px;
-			}
-			@media #{$sm} {
-				padding: 51px 55px 25px;
-			}
-		}
-		& .title{
-			font-size: 20px;
-		}
-		& span{
-			display: block;
-			font-size: 13px;
-			font-weight: 600;
-			color: $theme-color;
-			padding-top: 4px;
-			padding-bottom: 24px;
-		}
-		& > img{
-			margin-bottom: -38px;
-			display: inline-block;
-		}
-	 }
-	 & .testimonial-active{
-	 		& .slick-current{
-	 			& .testimonial-item{
-	 				box-shadow: 0px 20px 20px 0px rgba(63, 56, 54, 0.04);
-	 			}
-	 		}
-	 }
+.odometer-formatting-mark {
+    display: none;
 }
-
-
-
-
-
-
-
-

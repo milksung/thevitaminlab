@@ -10,7 +10,7 @@ export default {
   components: {},
   head() {
     return {
-      title: "THE VITAMINLAB",
+      title: "THEVITAMINLAB",
     };
   },
   mounted() {
