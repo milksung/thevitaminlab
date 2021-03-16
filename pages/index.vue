@@ -5,7 +5,7 @@
     <SubArea />
     <SpaceToMake />
     <!-- <ExploreCodesk /> -->
-    <section class="explore-codesk-area">
+    <!-- <section class="explore-codesk-area">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -36,7 +36,7 @@
       <div class="explore-codesk-shape">
         <img src="/assets/images/testimonial-pattern.png" alt="" />
       </div>
-    </section>
+    </section> -->
 
     <Footer />
   </div>
