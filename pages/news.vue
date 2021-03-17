@@ -2,7 +2,7 @@
   <div>
     <Nav />
     <PageHeader title="PRODUCT" />
-    <section class="explore-codesk-area">
+    <!-- <section class="explore-codesk-area">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -33,8 +33,8 @@
       <div class="explore-codesk-shape">
         <img src="/assets/images/testimonial-pattern.png" alt="" />
       </div>
-    </section>
-    <!-- <BlogPage /> -->
+    </section> -->
+    <BlogPage />
     <Footer />
   </div>
 </template>
@@ -58,18 +58,18 @@ export default {
       title: "THEVITAMINLAB | PRODUCT",
     };
   },
-  data() {
-    return {
-      posts: [],
-    };
-  },
+  // data() {
+  //   return {
+  //     posts: [],
+  //   };
+  // },
 
-  async asyncData({ $axios }) {
-    let { data } = await $axios.get("http://localhost:1337/products");
-    return { posts: data };
-  },
-  head: {
-    title: "thevitaminlab",
-  },
+  // async asyncData({ $axios }) {
+  //   let { data } = await $axios.get("http://localhost:1337/products");
+  //   return { posts: data };
+  // },
+  // head: {
+  //   title: "thevitaminlab",
+  // },
 };
 </script>

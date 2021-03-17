@@ -4,7 +4,7 @@
     <Slider />
     <SubArea />
     <SpaceToMake />
-    <!-- <ExploreCodesk /> -->
+    <ExploreCodesk />
     <!-- <section class="explore-codesk-area">
       <div class="container">
         <div class="row">
@@ -59,18 +59,18 @@ export default {
     SubArea,
     ExploreCodesk,
   },
-  data() {
-    return {
-      posts: [],
-    };
-  },
+  // data() {
+  //   return {
+  //     posts: [],
+  //   };
+  // },
 
-  async asyncData({ $axios }) {
-    let { data } = await $axios.get("http://localhost:1337/products");
-    return { posts: data };
-  },
-  head: {
-    title: "thevitaminlab",
-  },
+  // async asyncData({ $axios }) {
+  //   let { data } = await $axios.get("http://localhost:1337/products");
+  //   return { posts: data };
+  // },
+  // head: {
+  //   title: "thevitaminlab",
+  // },
 };
 </script>
