@@ -19,8 +19,12 @@
                     a virtual office
                   </h3>
                   <nuxt-link to="/single-news"
-                    ><i class="flaticon-right-arrow"></i
-                  ></nuxt-link>
+                    ><button type="button" class="btn btn-danger">
+                      <i class="fa fa-shopping-cart" aria-hidden="true">
+                        Add to Cart</i
+                      >
+                    </button></nuxt-link
+                  >
                 </div>
               </div>
             </div>
@@ -39,8 +43,63 @@
                     a virtual office
                   </h3>
                   <nuxt-link to="/single-news"
-                    ><i class="flaticon-right-arrow"></i
-                  ></nuxt-link>
+                    ><button type="button" class="btn btn-danger">
+                      <i class="fa fa-shopping-cart" aria-hidden="true">
+                        Add to Cart</i
+                      >
+                    </button></nuxt-link
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm">
+              <div class="news-item mt-30">
+                <div class="news-thumb">
+                  <img src="assets/images/news-1.jpg" alt="news" />
+                </div>
+                <div class="news-content">
+                  <ul>
+                    <li><i class="fa fa-user-o"></i> by admin</li>
+                    <li><i class="fa fa-comments-o"></i> 2 comments</li>
+                  </ul>
+                  <h3 class="title">
+                    Why your business absolutely needs <br />
+                    a virtual office
+                  </h3>
+                  <nuxt-link to="/single-news"
+                    ><button type="button" class="btn btn-danger">
+                      <i class="fa fa-shopping-cart" aria-hidden="true">
+                        Add to Cart</i
+                      >
+                    </button></nuxt-link
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="news-item mt-30">
+                <div class="news-thumb">
+                  <img src="assets/images/news-1.jpg" alt="news" />
+                </div>
+                <div class="news-content">
+                  <ul>
+                    <li><i class="fa fa-user-o"></i> by admin</li>
+                    <li><i class="fa fa-comments-o"></i> 2 comments</li>
+                  </ul>
+                  <h3 class="title">
+                    Why your business absolutely needs <br />
+                    a virtual office
+                  </h3>
+                  <nuxt-link to="/single-news"
+                    ><button type="button" class="btn btn-danger">
+                      <i class="fa fa-shopping-cart" aria-hidden="true">
+                        Add to Cart</i
+                      >
+                    </button></nuxt-link
+                  >
                 </div>
               </div>
             </div>

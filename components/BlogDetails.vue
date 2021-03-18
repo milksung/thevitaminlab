@@ -5,7 +5,10 @@
         <div class="col-lg-8">
           <div class="blog-details__main">
             <div class="blog-details__image">
-              <img src="/assets/images/blog-details-thumb.jpg" alt="thumb" />
+              <img
+                src="/assets/images/product/detail_product.jpg"
+                alt="thumb"
+              />
             </div>
             <!-- /.blog-details__image -->
             <div class="blog-details__content">
@@ -14,29 +17,21 @@
                 <a href="#"><i class="fa fa-comments-o"></i> 2 comments</a>
               </div>
               <!-- /.blog-one__meta -->
-              <h3>Why your business absolutely needs a virtual office</h3>
+              <h3>3C COMPLEX</h3>
+              <h4>
+                ผลิตภัณฑ์เสริมอาหารควบคุมน้ำหนัก “ควบคุมน้ำหนักอย่างปลอดภัย”
+              </h4>
+              <p>BLOCK/ BURN/ BALANCE</p>
               <p>
-                Aelltes port lacus quis enim var sed efficitur turpis gilla sed
-                sit amet finibus eros. Lorem Ipsum is simply dummy text of the
-                printing and typesetting industry. Lorem Ipsum has been the
-                ndustry standard dummy text ever since the 1500s, when an
-                unknown printer took a galley of type and scrambled it to make a
-                type specimen book. It has survived not only five centuries.
-                Lorem Ipsum is simply dummy text of the new design printng and
-                type setting Ipsum Take a look at our round up of the best shows
-                coming soon to your telly box has been the is industrys. Lorem
-                Ipsum is simply dummy text of the printing and typesetting
-                industry.
-              </p>
-              <p>
-                Lorem Ipsum has industr standard dummy text ever since the
-                1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book. It has survived not
-                only five centuries, but also the leap into electronic
-                typesetting, remaining essentially unchanged. It was popularised
-                in the 1960s with the release of Letraset sheets containing
-                Lorem Ipsum passages, and more recently with desktop publishing
-                software like Aldus PageMaker including versions.
+                ผลิตภัณฑ์เสริมอาหารควบคุมน้ำหนักที่คิดค้นขึ้นจากนวัตกรรมทางด้าน
+                Nutraceutical
+                คัดสรรและผสมผสานจากสารสกัดธรรมชาติที่มีงานวิจัยรองรับจากประเทศสหรัฐอเมริกา
+                โดยมี LeptiCore® เป็นส่วนประกอบหลัก
+                เน้นการฟื้นฟูสุขภาพแบบองค์รวม ผ่านการทดสอบทางคลินิกแล้วว่า
+                “ปลอดภัย” และ “ ได้ผลจริง” จากการรับรองของแพทย์ผู้เชี่ยวชาญ
+                โดยจะช่วยปรับสมดุลฮอร์โมน
+                ควบคุมน้ำหนักอย่างยั่งยืนที่สำคัญยังปราศจากส่วนผสมของยาลดน้ำหนัก
+                และไม่ทำให้เกิดโยโย่ เอฟเฟค
               </p>
             </div>
             <!-- /.blog-details__content -->

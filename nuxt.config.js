@@ -26,6 +26,7 @@ export default {
         script: [
             { src: "/assets/plugins/glightbox/glightbox.min.js", body: true },
             { src: "/assets/plugins/accordion/accordion.min.js", body: true },
+            { src: "http://code.jquery.com/jquery-1.11.1.min.js", body: true },
         ]
     },
     /*
