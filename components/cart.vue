@@ -21,7 +21,7 @@
                       <div class="display-flex align-center">
                         <div class="img-product">
                           <img
-                            src="assets/images/product/detail_product1.png"
+                            src="/assets/images/product/detail_product1.png"
                             alt=""
                             class="mCS_img_loaded"
                           />
@@ -51,7 +51,7 @@
                     <td>
                       <a href="#" title="">
                         <img
-                          src="assets/images/icons/delete.png"
+                          src="/assets/images/icons/delete.png"
                           alt=""
                           class="mCS_img_loaded"
                           width="32px"
@@ -65,7 +65,7 @@
                       <div class="display-flex align-center">
                         <div class="img-product">
                           <img
-                            src="assets/images/product/detail_product1.png"
+                            src="/assets/images/product/detail_product1.png"
                             alt=""
                             class="mCS_img_loaded"
                           />
@@ -95,7 +95,7 @@
                     <td>
                       <a href="#" title="">
                         <img
-                          src="assets/images/icons/delete.png"
+                          src="/assets/images/icons/delete.png"
                           alt=""
                           class="mCS_img_loaded"
                           width="32px"
