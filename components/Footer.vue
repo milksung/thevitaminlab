@@ -30,7 +30,7 @@
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Latest events</a></li>
                 <li><a href="#">Our services</a></li>
-                <li><a href="#">News & articles</a></li>
+                <li><a href="#">product & articles</a></li>
                 <li><a href="#">Contact us</a></li>
               </ul>
             </div>

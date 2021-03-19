@@ -342,7 +342,7 @@
 
 <script>
 export default {
-  name: "BlogDetails",
+  name: "detail-product",
 };
 </script>
 

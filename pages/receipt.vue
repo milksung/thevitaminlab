@@ -1,8 +1,8 @@
 <template>
   <div>
     <Nav />
-    <PageHeader title="News Single" />
-    <BlogDetails />
+    <PageHeader title="Receipt" />
+    <Receipt />
     <Footer />
   </div>
 </template>
@@ -11,17 +11,17 @@
 import Nav from "../components/Nav";
 import PageHeader from "../components/PageHeader";
 import Footer from "../components/Footer";
-import BlogDetails from "../components/BlogDetails";
+import Receipt from "../components/receipt";
 export default {
   components: {
-    BlogDetails,
+    Receipt,
     Footer,
     PageHeader,
     Nav,
   },
   head() {
     return {
-      title: "THEVITAMINLAB | 3C COMPLEX",
+      title: "THEVITAMINLAB | Receipt",
     };
   },
 };

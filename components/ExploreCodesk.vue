@@ -18,7 +18,7 @@
               <span>30 เม็ด</span>
               <p>990 บาท</p>
             </div>
-            <nuxt-link class="main-btn main-btn-2" to="/single-event"
+            <nuxt-link class="main-btn main-btn-2" to="/detail-product"
               >More <i class="flaticon-right-arrow"></i
             ></nuxt-link>
           </div>
@@ -32,7 +32,7 @@
               <span>30 เม็ด</span>
               <p>990 บาท</p>
             </div>
-            <nuxt-link class="main-btn main-btn-2" to="/single-event"
+            <nuxt-link class="main-btn main-btn-2" to="/detail-product"
               >More <i class="flaticon-right-arrow"></i
             ></nuxt-link>
           </div>
@@ -46,7 +46,7 @@
               <span>30 เม็ด</span>
               <p>990 บาท</p>
             </div>
-            <nuxt-link class="main-btn main-btn-2" to="/single-event"
+            <nuxt-link class="main-btn main-btn-2" to="/detail-product"
               >More <i class="flaticon-right-arrow"></i
             ></nuxt-link>
           </div>
@@ -63,7 +63,7 @@
               <span>30 เม็ด</span>
               <p>990 บาท</p>
             </div>
-            <nuxt-link class="main-btn main-btn-2" to="/single-event"
+            <nuxt-link class="main-btn main-btn-2" to="/detail-product"
               >More <i class="flaticon-right-arrow"></i
             ></nuxt-link>
           </div>

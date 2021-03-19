@@ -27,6 +27,9 @@ export default {
             { src: "/assets/plugins/glightbox/glightbox.min.js", body: true },
             { src: "/assets/plugins/accordion/accordion.min.js", body: true },
             { src: "http://code.jquery.com/jquery-1.11.1.min.js", body: true },
+            { src: "http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js", body: true },
+            { src: "http://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js", body: true },
+            { src: "/assets/js/cart.js", body: true },
         ]
     },
     /*

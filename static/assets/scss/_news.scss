@@ -206,12 +206,12 @@ padding: 53px 60px 50px;
 }
 &:hover {
     box-shadow: 0px 20px 20px 0px rgba(63, 56, 54, 0.04);
-    & .news-thumb {
+    & .product-thumb {
         & img {
             transform: scale(1.1) rotate(3deg);
         }
     }
-    & .news-content {
+    & .product-content {
         & .title {
             color: $theme-color;
         }
@@ -219,7 +219,7 @@ padding: 53px 60px 50px;
 }
 
 }
-&.news-page {
+&.product-page {
     padding-top: 90px;
     margin-top: 0;
 }

@@ -55,7 +55,7 @@
                         <nuxt-link to="/about">เกี่ยวกับ</nuxt-link>
                       </li>
                       <li>
-                        <nuxt-link to="/news">ผลิตภัณฑ์</nuxt-link>
+                        <nuxt-link to="/product">ผลิตภัณฑ์</nuxt-link>
                       </li>
                       <li>
                         <nuxt-link to="/">สมัครสมาชิก</nuxt-link>
@@ -124,75 +124,25 @@
               </div>
               <div id="menu" class="text-left">
                 <ul class="offcanvas_main_menu">
-                  <li class="menu-item-has-children active">
-                    <a href="#">Home</a>
-                    <ul class="sub-menu">
-                      <li><nuxt-link to="/">Home 1</nuxt-link></li>
-                      <li><nuxt-link to="/index-2">Home 2</nuxt-link></li>
-                      <li><nuxt-link to="/index-3">Home 3</nuxt-link></li>
-                      <li class="menu-item-has-children">
-                        <a href="#">Header Versions</a>
-                        <ul class="sub-menu">
-                          <li><nuxt-link to="/">Header Style 1</nuxt-link></li>
-                          <li>
-                            <nuxt-link to="/index-2">Header Style 2</nuxt-link>
-                          </li>
-                          <li>
-                            <nuxt-link to="/index-3">Header Style 3</nuxt-link>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
+                  <li>
+                    <nuxt-link to="/">หน้าแรก</nuxt-link>
                   </li>
                   <li>
-                    <nuxt-link to="/about">About</nuxt-link>
+                    <nuxt-link to="/about">เกี่ยวกับ</nuxt-link>
                   </li>
-                  <li class="menu-item-has-children active">
-                    <ul class="sub-menu">
-                      <li><nuxt-link to="/events">Events</nuxt-link></li>
-                      <li>
-                        <nuxt-link to="/single-event">single event</nuxt-link>
-                      </li>
-                    </ul>
+                  <li>
+                    <nuxt-link to="/product">ผลิตภัณฑ์</nuxt-link>
                   </li>
-                  <li class="menu-item-has-children active">
-                    <a href="#">Pages</a>
-                    <ul class="sub-menu">
-                      <li><nuxt-link to="/team">team</nuxt-link></li>
-                      <li><nuxt-link to="/pricing">pricing</nuxt-link></li>
-                      <li>
-                        <nuxt-link to="/book-a-tour">book a tour</nuxt-link>
-                      </li>
-                      <li><nuxt-link to="/gallery">gallery</nuxt-link></li>
-                    </ul>
+                  <li>
+                    <nuxt-link to="/">สมัครสมาชิก</nuxt-link>
                   </li>
-                  <li class="menu-item-has-children active">
-                    <a href="#">News <i class="fa fa-angle-down"></i></a>
-                    <ul class="sub-menu">
-                      <li><nuxt-link to="/news">news</nuxt-link></li>
-                      <li>
-                        <nuxt-link to="/single-news">single news</nuxt-link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="menu-item-has-children active">
-                    <a href="#">Blog</a>
-                    <ul class="sub-menu">
-                      <li><nuxt-link to="/posts">posts</nuxt-link></li>
-                      <li>
-                        <nuxt-link to="/single-post">single post</nuxt-link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="menu-item-has-children active">
-                    <nuxt-link to="/contact">Contact</nuxt-link>
-                  </li>
+                  <li><nuxt-link to="/contact">ติดต่อเรา</nuxt-link></li>
                 </ul>
               </div>
               <div class="offcanvas_footer">
-                <span
-                  ><a href="mailto:tanvirahmed8282@gmail.com"
-                    ><i class="fa fa-envelope-o"></i> layerdrops@gmail.com</a
+                <span>
+                  <a href="mailto:info@thevitaminlab.com"
+                    ><i class="flaticon-message"></i> info@thevitaminlab.com</a
                   ></span
                 >
               </div>
