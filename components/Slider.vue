@@ -1,81 +1,116 @@
 <template>
   <section class="banner-slide">
-    <VueSlickCarousel v-bind="settings">
-      <div class="banner-area bg_cover slide-bg1 d-flex align-items-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="banner-slide-number">
-                <span>01</span>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-7">
-              <div class="banner-content">
-                <span data-animation="fadeInDown" data-delay=".1s"
-                  ><img src="/assets/images/logo.png" alt=""
-                /></span>
-                <h1 data-animation="fadeInLeft" data-delay=".5s" class="title">
-                  3C COMPLEX
-                </h1>
-                <nuxt-link
-                  data-animation="fadeInLeft"
-                  data-delay="1s"
-                  class="main-btn"
-                  to="/book-a-tour"
-                  >สั่งซื้อ</nuxt-link
-                >
+    <div
+      id="myCarousel"
+      class="carousel slide carousel-fade"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="mask flex-center">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-7 col-12 order-md-1 order-2">
+                  <h4>
+                    3C COMPLEX <br />
+                    awesome product
+                  </h4>
+                  <p>
+                    Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis
+                    quidem rerum <br />
+                    necessitatibus praesentium voluptatum deleniti atque
+                    corrupti.
+                  </p>
+                  <a href="#">BUY NOW</a>
+                </div>
+                <div class="col-md-5 col-12 order-md-2 order-1">
+                  <img
+                    src="/assets/images/Slider/h1.png"
+                    class="mx-auto"
+                    alt="slide"
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="banner-social">
-          <ul>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Linkedin</a></li>
-          </ul>
+        <div class="carousel-item">
+          <div class="mask flex-center">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-7 col-12 order-md-1 order-2">
+                  <h4>
+                    3C COMPLEX<br />
+                    awesome product
+                  </h4>
+                  <p>
+                    Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis
+                    quidem rerum <br />
+                    necessitatibus praesentium voluptatum deleniti atque
+                    corrupti.
+                  </p>
+                  <a href="#">BUY NOW</a>
+                </div>
+                <div class="col-md-5 col-12 order-md-2 order-1">
+                  <img
+                    src="/assets/images/Slider/h1.png"
+                    class="mx-auto"
+                    alt="slide"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="mask flex-center">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-7 col-12 order-md-1 order-2">
+                  <h4>
+                    3C COMPLEX <br />
+                    awesome product
+                  </h4>
+                  <p>
+                    Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis
+                    quidem rerum <br />
+                    necessitatibus praesentium voluptatum deleniti atque
+                    corrupti.
+                  </p>
+                  <a href="#">BUY NOW</a>
+                </div>
+                <div class="col-md-5 col-12 order-md-2 order-1">
+                  <img
+                    src="/assets/images/Slider/h1.png"
+                    class="mx-auto"
+                    alt="slide"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="banner-area bg_cover slide-bg2 d-flex align-items-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="banner-slide-number">
-                <span>02</span>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-7">
-              <div class="banner-content">
-                <span data-animation="fadeInDown" data-delay=".1s"
-                  ><img src="/assets/images/logo.png" alt=""
-                /></span>
-                <h1 data-animation="fadeInLeft" data-delay=".5s" class="title">
-                  VITALUTEIN
-                </h1>
-                <nuxt-link
-                  data-animation="fadeInLeft"
-                  data-delay="1s"
-                  class="main-btn"
-                  to="/book-a-tour"
-                  >สั่งซื้อ</nuxt-link
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="banner-social">
-          <ul>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Linkedin</a></li>
-          </ul>
-        </div>
-      </div>
-    </VueSlickCarousel>
+      <a
+        class="carousel-control-prev"
+        href="#myCarousel"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#myCarousel"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!--slide end-->
   </section>
 </template>
 

@@ -26,7 +26,13 @@
               <div class="col-sm-6">
                 <div class="space-to-make-item mt-30">
                   <a href="#">
-                    <img src="/assets/images/icon/doctor.png" alt="" />
+                    <center>
+                      <img
+                        class="img-center"
+                        src="/assets/images/icon/doctor.png"
+                        alt=""
+                      />
+                    </center>
                     <span>ปลอดภัย</span>
                   </a>
                 </div>
@@ -34,7 +40,13 @@
               <div class="col-sm-6">
                 <div class="space-to-make-item mt-30">
                   <a href="#">
-                    <img src="/assets/images/icon/cardiogram.png" alt="" />
+                    <center>
+                      <img
+                        class="img-center"
+                        src="/assets/images/icon/cardiogram.png"
+                        alt=""
+                      />
+                    </center>
                     <span>ไม่อันตราย</span>
                   </a>
                 </div>

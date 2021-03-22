@@ -58,7 +58,7 @@
                         <nuxt-link to="/product">ผลิตภัณฑ์</nuxt-link>
                       </li>
                       <li>
-                        <nuxt-link to="/">สมัครสมาชิก</nuxt-link>
+                        <nuxt-link to="/register">สมัครสมาชิก</nuxt-link>
                       </li>
                       <li><nuxt-link to="/contact">ติดต่อเรา</nuxt-link></li>
                     </ul>
@@ -67,13 +67,13 @@
                 <div class="header-social d-flex align-items-center">
                   <ul class="d-none d-lg-block">
                     <li>
-                      <a href="#" target="_blank"
+                      <a href="/Profile"
                         ><i class="fa fa-user" aria-hidden="true"></i
                       ></a>
                     </li>
 
                     <li>
-                      <a href="#" target="_blank"
+                      <a href="/add-to-cart"
                         ><i class="fa fa-shopping-bag" aria-hidden="true"></i
                       ></a>
                     </li>
@@ -110,13 +110,13 @@
               <div class="offcanvas-social">
                 <ul class="text-center">
                   <li>
-                    <a href="#" target="_blank"
+                    <a href="/Profile"
                       ><i class="fa fa-user" aria-hidden="true"></i
                     ></a>
                   </li>
 
                   <li>
-                    <a href="#" target="_blank"
+                    <a href="/add-to-cart"
                       ><i class="fa fa-shopping-bag" aria-hidden="true"></i
                     ></a>
                   </li>
@@ -134,11 +134,12 @@
                     <nuxt-link to="/product">ผลิตภัณฑ์</nuxt-link>
                   </li>
                   <li>
-                    <nuxt-link to="/">สมัครสมาชิก</nuxt-link>
+                    <nuxt-link to="/register">สมัครสมาชิก</nuxt-link>
                   </li>
                   <li><nuxt-link to="/contact">ติดต่อเรา</nuxt-link></li>
                 </ul>
               </div>
+
               <div class="offcanvas_footer">
                 <span>
                   <a href="mailto:info@thevitaminlab.com"
