@@ -28,9 +28,9 @@ export default {
             { src: "/assets/plugins/accordion/accordion.min.js", body: true },
             // { src: "/assets/js/owl.carousel.js", body: true },
             // { src: "/assets/js/owl.carousel.min.js", body: true },
-            { src: "http://code.jquery.com/jquery-1.11.1.min.js", body: true },
-            { src: "http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js", body: true },
-            { src: "http://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js", body: true },
+            { src: "https://code.jquery.com/jquery-1.11.1.min.js", body: true },
+            { src: "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js", body: true },
+            { src: "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js", body: true },
             // { src: "/assets/js/cart.js", body: true },
         ]
     },
